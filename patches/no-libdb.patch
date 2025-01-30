@@ -10,6 +10,20 @@ diff --color -Naur a/debian/control.in b/debian/control.in
    tk-dev, blt-dev (>= 2.4z),
    libssl-dev,
    libexpat1-dev,
+
+diff --color -Naur a/debian/control b/debian/control
+--- a/debian/control	2025-01-30 08:37:22.608764884 +0100
++++ b/debian/control	2025-01-30 08:37:32.241888449 +0100
+@@ -8,7 +8,7 @@
+   lsb-release, sharutils,
+   libreadline-dev | libeditreadline-dev, libncurses-dev, 
+   zlib1g-dev, libbz2-dev, liblzma-dev,
+-  libgdbm-dev, libdb-dev,
++  libgdbm-dev,
+   tk-dev, blt-dev (>= 2.4z),
+   libssl-dev,
+   libexpat1-dev,
+
 diff --color -Naur a/debian/rules b/debian/rules
 --- a/debian/rules	2024-05-07 12:05:20.265273538 +0200
 +++ b/debian/rules	2024-05-07 12:09:20.237141190 +0200
