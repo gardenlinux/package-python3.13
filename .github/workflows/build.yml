@@ -9,3 +9,5 @@ jobs:
     with:
       release: ${{ github.ref == 'refs/heads/main' }}
       runs-on: ubuntu-latest-64core
+      build_dep: |
+        gardenlinux/package-expat 2.8.1-1gl0+bp2150
